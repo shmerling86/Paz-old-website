@@ -45,7 +45,7 @@ header{
 }
 
 #search-icon{
-    background: url(/img/search_button.png) no-repeat left;
+    background: url(img/search_button.png) no-repeat left;
     height: 19px;
     position: absolute;
     width: 19px;
@@ -179,7 +179,7 @@ h4,
     bottom: 2px;
     font-size:13px;
     display: block;
-    background: url(/img/read_more_white.png)no-repeat left center ;     
+    background: url(img/read_more_white.png)no-repeat left center ;     
     text-decoration: none;
 }
 .read-more:hover{
