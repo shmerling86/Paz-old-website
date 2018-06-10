@@ -1,7 +1,7 @@
 body{
     margin:0;   
     direction: rtl;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -151,6 +151,157 @@ li{
 #right-menu>a:hover{
     color: rgb(0, 92, 160);
     text-decoration: underline;
+}
+
+#master-nav{
+    position: absolute;
+    right: 35%;
+    top:12.5%;
+}
+
+#pup-nav{
+    color: rgb(37, 37, 37);
+    font-size: 13px;
+}
+
+#up-nav{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 13px;
+}
+
+#up-nav:hover{
+    color: rgb(0, 92, 160);
+    text-decoration: underline;
+}
+
+#container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#col-60{
+    display: block;
+    position: absolute;
+    width:60%;
+    height: 460px;
+    background: url(img/contact_form_bg.png) no-repeat center;
+}
+
+#col-40{
+    position: relative;
+    width:40%;
+    right: 14%;
+    top:250px;
+}
+
+#row1{
+    position: absolute;
+    display: block;
+    right:50%;
+    bottom:0;
+    width: 100%;
+    background: url(img/cube_bg.png) no-repeat 0 0;
+    color: rgb(87, 87, 87);
+} 
+
+#row2{
+    position: absolute;
+    display: block;
+    right:50%;
+    top:0;
+    width: 100%;
+    background: url(img/cube_bg.png) no-repeat 0 0;
+    color: rgb(87, 87, 87);
+} 
+
+#row>a{
+    text-decoration: none;
+}
+
+#row1 p,
+#row2 p{
+    display: block;
+    font-size: 13px;
+} 
+
+#row #bold{
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
+
+#col-40 h4{
+    color: rgb(0, 92, 160);
+}
+
+form{
+    display: block;
+    font-size: 0.8em
+}
+
+#pre-form{
+    position: absolute;
+    display: block;
+    width: 36%;
+    right: 32%;
+    top:12%;
+}
+
+#pre-form p:nth-child(1){
+color: rgb(0, 92, 160);
+font-size: 15px;
+font-weight: bold;
+}
+
+#pre-form p:nth-child(2){
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
+
+#pre-form p:nth-child(3){
+    color: rgb(87, 87, 87);
+}
+
+#form{
+    float: right;
+    position: absolute;
+    width:300px;
+    margin: 5px auto;
+    right: 38%;
+    top:35%;
+    color: rgb(87, 87, 87);
+}
+
+#fName,
+#lName,
+#cell,
+#address{
+    margin: 10px 0;
+    width: 100px;
+    padding: 0 20px;
+    margin: 4px 0;
+}
+
+label{
+    width: 80px;
+    float: right
+}
+
+input[type="submit"]{
+    position: absolute;
+    top: 209px;
+    right:183px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgb(7, 153, 219), rgb(2, 82, 138));   
+    border: none;
+    padding: 1px 10px;
+    border-radius: 0 5px 0 0;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(to bottom, rgb(251, 217, 28), rgb(245, 148, 10));   
+    color:black;
 }
 
 footer{
