@@ -55,8 +55,8 @@ header{
 
 #lang{
     position: absolute;
-    right: 60.5%;
-    top: 20%;
+    right: 61%;
+    top: 26%;
     font-family: Arial;
     font-weight: bold;
     font-size: 12px;
@@ -64,8 +64,13 @@ header{
 
 nav{
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left:27%;
+}
+
+ul{
+    margin: 0;
+
 }
 
 ul>img{
@@ -83,34 +88,30 @@ li{
     list-style-type: none;
     font-weight: bold;
     padding: 0 5px;
-    height: 100%;
 }
-
 .sub-content{
     position: absolute;
     display: none;
-    margin-top:17px;
+    top: 33px;
     background: linear-gradient(to top, rgb(144, 144, 144)85%, rgb(167, 167, 167));   
 }
 
-li>a{
+#menu-list>a{
+    color: #fff;
     text-decoration: none;
-    color: #fff; 
 }
 
-#menu-list:hover #title-list{
+#menu-list:hover .sub-content{
+    position: absolute;
     display: block;
-    text-decoration: underline;
+    z-index: 100;
+}
+
+#menu-list>a:hover #menu-list>a{
     color: rgb(0, 92, 160);
 }
 
 
-li:hover .sub-content{
-    display: block;
-    position: absolute;
-    z-index:100;
-
-}
 
 .sub-content>a{
     display: block;
@@ -120,7 +121,9 @@ li:hover .sub-content{
     padding: 5px;
 }
 
-.sub-content>a:hover{
+.sub-content>a:hover {
+    text-decoration: underline;
+    color: rgb(0, 92, 160);
     background-color: rgb(167, 167, 167);
 }
 
@@ -159,12 +162,12 @@ main{
 
 .container{
     background-color: rgba(130, 127, 126,0.9);
-    border-radius: 0 0 50px 0;
+    border-radius: 0 0 20px 0;
     position: absolute;
     bottom: 5px;
     right: 5px;
-    height: 105px;
-    width: 89%
+    height: 100px;
+    width: 85%
 }
 
 p,
@@ -194,16 +197,14 @@ h4,
     width: 10px;
 }
 
-p,h4{
-    padding: 3px;
-}
-
 h4{
     font-size: 14px;
     margin:0 17px;
+    padding-top: 10px;
 }
 
 p{
+    line-height: 1.05;
     font-size:13px;
     margin:0 17px;
 }
@@ -214,7 +215,6 @@ p{
     height: 169px;
     width: 292px;
     float: right;
-    background: url(img/cube_bg.png) no-repeat left;
 }
 
 .row-sm>p,
@@ -222,9 +222,9 @@ p{
     position: absolute;
     font-size: 14px;
     font-weight: bold;
-    margin-right: 27px;
-    color: rgb(55, 55, 55);
-
+    color: rgb(87, 87, 87);
+    top: 7%;
+    right: 4%;
 } 
 .row-sm>li>a{
     color: black;
@@ -233,8 +233,15 @@ p{
     bottom:0;
 }
 
-.row-sm>img,
-.row-sm>div>img{
+.row-sm>img{
+    position: absolute;
+    width:292px;
+    height: 250px;
+}
+
+
+
+#img-commercial{
     position: absolute;
     height: 110px;
     width:250px;
@@ -247,31 +254,44 @@ p{
     height:168px;
     width: 73px;
     right:65%;
+    top: 45%
 }
 
-#area-zone{
-    margin-right: 6%;
-    margin-bottom: 16%;
-}
-
-#area-zone>a{
-    display: block;
+ #area-zone{
+     position: absolute;
+    width: 15px;
+    right:10%;
+    top:40%;
+} 
+ #area-zone>a{
     color: rgb(114,113,109);
     font-size: 13px;
-    padding: 5px;
-    
-}
-
-.container-sm>a{
     background: url(img/read_more_yellow.png) no-repeat left;
-    width: 8px;
-    height: 9px;
+    padding-left:12px; 
+ }
+
+#area-zone>a:hover{
+    color: rgb(0, 92, 160);
+} 
+
+#more-details{
+    position: absolute; 
+    display: block;
+    background: url(img/read_more_yellow.png) no-repeat left;
+    font-size:13px;
+    color: rgb(114,113,109);
+    right: 55%;
+    top: 112%;   
 }
 
-.container-sm>a>span{
-   text-decoration: none;
-   color: rgb(114,113,109);
+#more-details>span{
+  padding-left: 15px;
 }
+
+#more-details:hover{
+    color: rgb(0, 92, 160);
+}
+
 
 footer{
     position: fixed;
@@ -294,12 +314,17 @@ footer li{
     font-weight: 100;
     padding: 0 1px;
 }
+
+footer li>a{
+    text-decoration: none;
+    color: #fff;
+
+}
 footer li>a>img{
     position: absolute;
     top: -13px;
     right: -17px;
 }
-
 
 footer li:last-child>a{
     color: red;
