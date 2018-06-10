@@ -155,24 +155,37 @@ li{
 
 #master-nav{
     position: absolute;
-    right: 35%;
+    right: 33%;
     top:12.5%;
 }
 
 #pup-nav{
-    color: rgb(37, 37, 37);
+    color: rgb(87, 87, 87);
     font-size: 13px;
+    
 }
 
 #up-nav{
     text-decoration: none;
-    color: rgb(37, 37, 37);
+    color: rgb(87, 87, 87);
     font-size: 13px;
+    
 }
 
 #up-nav:hover{
     color: rgb(0, 92, 160);
     text-decoration: underline;
+}
+
+main>p{
+    display: block;
+    position: relative;
+    right: 33%;
+    color: rgb(87, 87, 87);
+    width:440px;
+    font-size:15px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(216, 216, 216);
 }
 
 #container{
@@ -184,49 +197,61 @@ li{
 #col-60{
     display: block;
     position: absolute;
+    right: 11%;
     width:60%;
-    height: 460px;
+    height: 356px;
     background: url(img/contact_form_bg.png) no-repeat center;
 }
 
 #col-40{
     position: relative;
     width:40%;
-    right: 14%;
-    top:250px;
+    right: 47%;
 }
 
 #row1{
     position: absolute;
     display: block;
-    right:50%;
-    bottom:0;
-    width: 100%;
+    width: 80%;
+    height: 356px;
+    top:-10px;
     background: url(img/cube_bg.png) no-repeat 0 0;
     color: rgb(87, 87, 87);
 } 
+
+#row1-son,
+#row2-son{
+    position: relative;
+    display: block;
+    right: 45%
+}
 
 #row2{
     position: absolute;
     display: block;
-    right:50%;
-    top:0;
-    width: 100%;
+    width: 80%;
+    height: 356px;
+    top:190px;
     background: url(img/cube_bg.png) no-repeat 0 0;
     color: rgb(87, 87, 87);
 } 
 
-#row>a{
+#row2>a{
     text-decoration: none;
+    font-size: 13px;
+    padding: 0;
 }
 
 #row1 p,
 #row2 p{
     display: block;
     font-size: 13px;
+    margin:0;
+    padding:0;
 } 
 
-#row #bold{
+#row1 #bold,
+#row2 #bold{
     font-weight: bold;
     color: rgb(87, 87, 87);
 }
@@ -245,7 +270,7 @@ form{
     display: block;
     width: 36%;
     right: 32%;
-    top:12%;
+    top:0%;
 }
 
 #pre-form p:nth-child(1){
@@ -269,7 +294,7 @@ font-weight: bold;
     width:300px;
     margin: 5px auto;
     right: 38%;
-    top:35%;
+    top:32%;
     color: rgb(87, 87, 87);
 }
 
@@ -277,20 +302,20 @@ font-weight: bold;
 #lName,
 #cell,
 #address{
-    margin: 10px 0;
     width: 100px;
     padding: 0 20px;
-    margin: 4px 0;
+    margin: 2px 0;
 }
 
 label{
     width: 80px;
-    float: right
+    float: right;
+    margin: 2px 0;
 }
 
 input[type="submit"]{
     position: absolute;
-    top: 209px;
+    top: 195px;
     right:183px;
     color: #fff;
     background: linear-gradient(to bottom, rgb(7, 153, 219), rgb(2, 82, 138));   
@@ -335,10 +360,6 @@ footer li>a>img{
     position: absolute;
     top: -13px;
     right: -17px;
-}
-
-footer li:last-child>a{
-    color: red;
 }
 
 footer li>a:hover{
