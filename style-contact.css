@@ -241,6 +241,12 @@ main>p{
     padding: 0;
 }
 
+#row2-son>a:hover{
+    color: rgb(0, 92, 160);
+    text-decoration: underline;
+
+}
+
 #row1 p,
 #row2 p{
     display: block;

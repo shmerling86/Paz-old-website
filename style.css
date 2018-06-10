@@ -186,9 +186,9 @@ h4,
     text-decoration: none;
 }
 .read-more:hover{
-    color: rgb(0, 92, 160)
+    color: rgb(0, 92, 160);
+    background: url(img/read_more_yellow1.png) no-repeat left;
 }
-
 
 .read-more-icon{
     position: absolute;
@@ -278,6 +278,7 @@ p{
 
 #area-zone>a:hover{
     color: rgb(0, 92, 160);
+    background: url(img/read_more_yellow2.png) no-repeat left;
 } 
 
 #more-details{
@@ -296,8 +297,8 @@ p{
 
 #more-details:hover{
     color: rgb(0, 92, 160);
+        background: url(img/read_more_yellow2.png) no-repeat left;
 }
-
 
 footer{
     position: fixed;
