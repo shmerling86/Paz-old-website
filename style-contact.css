@@ -60,6 +60,9 @@ header{
     font-family: Arial;
     font-weight: bold;
     font-size: 12px;
+    color: #fff;
+    margin: 0 17px;
+    line-height: 1.05;
 }
 
 nav{
@@ -111,8 +114,6 @@ li{
     color: rgb(0, 92, 160);
 }
 
-
-
 .sub-content>a{
     display: block;
     border-bottom: 1px solid rgb(177, 177, 177);
@@ -127,177 +128,30 @@ li{
     background-color: rgb(167, 167, 167);
 }
 
-main{
-    width: 49%;
-    height: 74.4vh;
-    position: sticky;
-    margin: 32px auto;
-}
-
-.col-33{
-    width:33%;
-    float: left;
-}
-
-.row-lg{
-    float: right;
-    width: 293px;
-    height: 355px;
-    border-radius: 0 0 50px 0;
-    position: relative;
-}   
-
-.col-33:after,
-.row-lg:after{
-    content: "";
+#right-menu{
     display: block;
-    clear: both;
-
+    width: 110px;
+    height: 35px;
+    background: linear-gradient(to bottom, #fff, rgb(208, 208, 208));   
+    border-top:1px solid rgb(208, 208, 208);
+    margin-top: 30px;
+    right: 24%;
 }
 
-.row-lg img{
-    width: 100%;
-    border-radius: 0 0 20px 0;
-}
-
-.container{
-    background-color: rgba(130, 127, 126,0.9);
-    border-radius: 0 0 20px 0;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    height: 100px;
-    width: 85%
-}
-
-p,
-h4,
-.read-more{
-    color: #fff;
-}
-
-.read-more{
-    position: absolute;
-    left:25px;
-    bottom: 2px;
-    font-size:13px;
+#right-menu>a{
     display: block;
-    background: url(img/read_more_white.png)no-repeat left center ;     
     text-decoration: none;
-}
-.read-more:hover{
-    color: rgb(0, 92, 160)
-}
-
-
-.read-more-icon{
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-    width: 10px;
-}
-
-h4{
-    font-size: 14px;
-    margin:0 17px;
-    padding-top: 10px;
-}
-
-p{
-    line-height: 1.05;
-    font-size:13px;
-    margin:0 17px;
-}
-
-.row-sm{
-    position: relative;
-    margin-top: 20px; 
-    height: 169px;
-    width: 292px;
-    float: right;
-}
-
-.row-sm>p,
-.row-sm>div>p{
-    position: absolute;
-    font-size: 14px;
-    font-weight: bold;
     color: rgb(87, 87, 87);
-    top: 7%;
-    right: 4%;
-} 
-.row-sm>li>a{
-    color: black;
-    font-size: 12px;
-    position: absolute;
-    bottom:0;
-}
-
-.row-sm>img{
-    position: absolute;
-    width:292px;
-    height: 250px;
-}
-
-#img-commercial{
-    position: absolute;
-    height: 110px;
-    width:250px;
-    margin: 50px 25px;
-    border-radius: 0%;
-}
-
-#img-israel{
-    position: absolute;
-    height:168px;
-    width: 73px;
-    right:65%;
-    top: 45%
-}
-
- #area-zone{
-    position: absolute;
-    width: 15px;
-    right:10%;
-    top:40%;
-} 
- #area-zone>a{
-    color: rgb(114,113,109);
-    font-size: 13px;
-    background: url(img/read_more_yellow.png) no-repeat left;
-    padding-left:12px; 
- }
-
- #area-zone>a:first-child{
-    padding-left:17px; 
- }
-
- #area-zone>a:last-child{
-    padding-left:14px; 
- }
-
-#area-zone>a:hover{
-    color: rgb(0, 92, 160);
-} 
-
-#more-details{
-    position: absolute; 
-    display: block;
-    background: url(img/read_more_yellow.png) no-repeat left;
     font-size:13px;
-    color: rgb(114,113,109);
-    right: 55%;
-    top: 112%;   
+    font-weight: 100;
+    padding-top:8px;
+    padding-right: 15px;
 }
 
-#more-details>span{
-  padding-left: 15px;
-}
-
-#more-details:hover{
+#right-menu>a:hover{
     color: rgb(0, 92, 160);
+    text-decoration: underline;
 }
-
 
 footer{
     position: fixed;
