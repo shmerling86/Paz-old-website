@@ -235,7 +235,7 @@ main>p{
     color: rgb(87, 87, 87);
 } 
 
-#row2>a{
+#row2-son>a{
     text-decoration: none;
     font-size: 13px;
     padding: 0;
@@ -274,9 +274,9 @@ form{
 }
 
 #pre-form p:nth-child(1){
-color: rgb(0, 92, 160);
-font-size: 15px;
-font-weight: bold;
+    color: rgb(0, 92, 160);
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #pre-form p:nth-child(2){
