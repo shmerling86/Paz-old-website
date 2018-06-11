@@ -24,7 +24,7 @@ header{
     height: 15px;
     border-radius: 0 0 0 0;
     position: absolute;
-    bottom: 3%;
+    bottom: 22%;
     left:96%;
 }
 
@@ -41,9 +41,10 @@ header{
     font-size: 12px;
     height: 15px;
     top:20%;
-    border-radius: 0 12px 0 0;
+    border-radius: 0 8px 0 0;
+    background-position: solid;
+    color: lightgray;
 }
-
 #search-icon{
     background: url(img/search_button.png) no-repeat left;
     height: 19px;
@@ -67,13 +68,12 @@ header{
 
 nav{
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     left:27%;
 }
 
 ul{
     margin: 0;
-
 }
 
 ul>img{
@@ -92,11 +92,16 @@ li{
     font-weight: bold;
     padding: 0 5px;
 }
+
 .sub-content{
     position: absolute;
     display: none;
-    top: 33px;
+    top: 100%;
     background: linear-gradient(to top, rgb(144, 144, 144)85%, rgb(167, 167, 167));   
+}
+#menu-list{
+    padding: 10px 5px;
+
 }
 
 #menu-list>a{
@@ -129,6 +134,7 @@ li{
 }
 
 #right-menu{
+    position: relative;
     display: block;
     width: 110px;
     height: 35px;
@@ -140,12 +146,16 @@ li{
 
 #right-menu>a{
     display: block;
+    position: absolute;
     text-decoration: none;
     color: rgb(87, 87, 87);
     font-size:13px;
     font-weight: 100;
-    padding-top:8px;
     padding-right: 15px;
+    background: url(img/הורד.png) no-repeat right center;
+    right: 0;
+    top:10px;
+    
 }
 
 #right-menu>a:hover{
@@ -153,10 +163,6 @@ li{
     text-decoration: underline;
 }
 
-#right-menu>img{
-    height: 11px;
-    width:10px;
-}
 
 #master-nav{
     position: absolute;

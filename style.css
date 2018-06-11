@@ -24,7 +24,7 @@ header{
     height: 15px;
     border-radius: 0 0 0 0;
     position: absolute;
-    bottom: 3%;
+    bottom: 22%;
     left:96%;
 }
 
@@ -64,7 +64,7 @@ header{
 
 nav{
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     left:27%;
 }
 
@@ -94,6 +94,10 @@ li{
     display: none;
     top: 33px;
     background: linear-gradient(to top, rgb(144, 144, 144)85%, rgb(167, 167, 167));   
+}
+
+#menu-list{
+    padding: 10px 5px;
 }
 
 #menu-list>a{
