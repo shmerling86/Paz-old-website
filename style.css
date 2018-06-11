@@ -41,7 +41,11 @@ header{
     font-size: 12px;
     height: 15px;
     top:20%;
-    border-radius: 0 12px 0 0;
+    border-radius: 0 10px 0 0;
+    border-radius: 0 10px 0 0;
+    color: rgb(144, 144, 144);
+    border: solid;
+    padding: 2px;
 }
 
 #search-icon{
@@ -49,8 +53,8 @@ header{
     height: 19px;
     position: absolute;
     width: 19px;
-    right: 72.1%;
-    top: 22%;
+    right: 72.3%;
+    top: 23%;
 }
 
 #lang{
