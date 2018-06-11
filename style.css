@@ -244,7 +244,7 @@ p{
 .row-sm>img{
     position: absolute;
     width:292px;
-    height: 250px;
+    height: 216px;
 }
 
 #img-commercial{
@@ -260,7 +260,7 @@ p{
     height:168px;
     width: 73px;
     right:65%;
-    top: 45%
+    top: 25%
 }
 
  #area-zone{
@@ -295,8 +295,8 @@ p{
     background: url(img/read_more_yellow.png) no-repeat left;
     font-size:13px;
     color: rgb(114,113,109);
-    right: 55%;
-    top: 112%;   
+    right: 63%;
+    top: 106%;   
 }
 
 #more-details>span{
