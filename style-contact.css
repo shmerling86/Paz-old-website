@@ -153,6 +153,11 @@ li{
     text-decoration: underline;
 }
 
+#right-menu>img{
+    height: 11px;
+    width:10px;
+}
+
 #master-nav{
     position: absolute;
     right: 33%;
